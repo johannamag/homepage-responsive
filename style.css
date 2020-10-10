@@ -107,6 +107,10 @@ body {
   fill: #ffffff;
 }
 
+.col-2 {
+  width: clamp(300px, 50vw, 600px);
+}
+
 @media (max-width: 1023px) {
   .custom-shape-divider svg {
     width: calc(200% + 1.3px);
